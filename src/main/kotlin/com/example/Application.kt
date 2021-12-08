@@ -16,5 +16,6 @@ fun Application.module() {
     configureSerialization()
     routing {
         customerRouting()
+        clientRouting()
     }
 }
